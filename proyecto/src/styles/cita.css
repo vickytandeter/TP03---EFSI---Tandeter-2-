@@ -1,0 +1,18 @@
+.cita {
+  padding: 2rem;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.cita p {
+  font-weight: bold;
+}
+
+.cita span {
+  font-weight: normal;
+}
+
+.button.eliminar {
+  background-color: #c10059;
+  color: white;
+}
