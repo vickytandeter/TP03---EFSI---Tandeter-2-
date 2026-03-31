@@ -1,5 +1,5 @@
 
-function header() {
+function Header() {
   return <h1>ADMINISTRADOR DE PACIENTES</h1>;
 }
 
