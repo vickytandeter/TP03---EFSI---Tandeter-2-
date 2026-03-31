@@ -1,4 +1,3 @@
-import "../styles/cita.css";
 
 function Cita({ mascota, dueño, fecha, hora, sintomas }) {
   return (

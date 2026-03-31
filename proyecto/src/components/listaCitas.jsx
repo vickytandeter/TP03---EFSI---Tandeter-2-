@@ -1,5 +1,4 @@
 import Cita from "./cita";
-import "../styles/listaCitas.css";
 
 function ListaCitas() {
   return (

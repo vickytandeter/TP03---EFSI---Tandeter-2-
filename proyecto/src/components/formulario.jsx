@@ -1,4 +1,3 @@
-import "../styles/formulario.css";
 
 function Formulario() {
   return (

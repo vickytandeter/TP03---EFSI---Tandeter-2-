@@ -182,3 +182,46 @@
     border-right-color: var(--border);
   }
 }
+
+.cita {
+  padding: 2rem;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.cita p {
+  font-weight: bold;
+}
+
+.cita span {
+  font-weight: normal;
+}
+
+.button.eliminar {
+  background-color: #c10059;
+  color: white;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+}
+h1 {
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Staatliches', cursive;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
