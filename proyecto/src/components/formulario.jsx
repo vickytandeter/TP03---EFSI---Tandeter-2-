@@ -1,3 +1,4 @@
+import './formulario.css'
 
 function Formulario() {
   return (
@@ -6,19 +7,19 @@ function Formulario() {
 
       <form>
         <label>Nombre Mascota</label>
-        <input type="text" className="u-full-width" />
+        <input type="text" name = "mascota" className="u-full-width" placeHolder = "Nombre Mascota"/>
 
         <label>Nombre Dueño</label>
-        <input type="text" className="u-full-width" />
+        <input type="text" name = "dueño" className="u-full-width" placeHolder = "Nombre Dueño"/>
 
         <label>Fecha</label>
-        <input type="date" className="u-full-width" />
+        <input type="date" name = "fecha" className="u-full-width" placeHolder = "Fecha"/>
 
         <label>Hora</label>
-        <input type="time" className="u-full-width" />
+        <input type="time" name = "hora" className="u-full-width" placeHolder = "Hora"/>
 
         <label>Sintomas</label>
-        <textarea className="u-full-width"></textarea>
+        <textarea name = "sintomas" className="u-full-width" placeHolder = "Síntomas"></textarea>
 
         <button className="u-full-width button-primary">
           Agregar Cita
@@ -29,3 +30,4 @@ function Formulario() {
 }
 
 export default Formulario;
+

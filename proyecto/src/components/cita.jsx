@@ -1,12 +1,13 @@
+import "./cita.css"
 
-function Cita({ mascota, dueño, fecha, hora, sintomas }) {
+function Cita() {
   return (
     <div className="cita">
-      <p>Mascota: <span>{mascota}</span></p>
-      <p>Dueño: <span>{dueño}</span></p>
-      <p>Fecha: <span>{fecha}</span></p>
-      <p>Hora: <span>{hora}</span></p>
-      <p>Sintomas: <span>{sintomas}</span></p>
+      <p>Mascota: <span>Nina</span></p>
+      <p>Dueño: <span>Martin</span></p>
+      <p>Fecha: <span>2021-08-05</span></p>
+      <p>Hora: <span>08:20</span></p>
+      <p>Sintomas: <span>Le duele la pierna</span></p>
 
       <button className="button eliminar u-full-width">
         Eliminar ×
